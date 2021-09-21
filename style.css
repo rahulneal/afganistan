@@ -135,6 +135,7 @@ a{
 
 .about_img{
     width: 60%;
+    position: relative;
 }
 
   
@@ -152,12 +153,35 @@ a{
     opacity: .2; */
     content: url(./image/arrow\ art.png);
     position: absolute;
-    left: 48%;
-    top: 35%;
+    left: -20%;
+    top: 25%;
     
     
 
   }
+.cloud{
+    position: absolute;
+    top: -12%;
+    right: 10%;
+    
+}
+.cloudtwo{
+    position: absolute;
+    top: 15%;
+    right: -15%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
   .scroll{color: var(--secondry);
     display: flex;
     justify-content: center;
